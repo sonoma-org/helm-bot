@@ -1,0 +1,8 @@
+/.devcontainer
+/.git
+/.gitignore
+/.gitlab-ci.yml
+/config.ini
+/__pycache__
+/.idea
+/README.md
