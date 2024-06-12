@@ -56,7 +56,7 @@ services:
       - REG_CHANNEL_ID=123123123
       - PLAYERS_ROLE_ID=123123123
       - GUILD_ADM_ROLE_ID=123123123
-    image: reg.handtruth.com/handtruth/banana/helm-bot/app:main
+    image: mchelmbot
     depends_on:
       - database
     restart: unless-stopped
