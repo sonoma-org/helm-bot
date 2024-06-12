@@ -22,10 +22,12 @@ python main.py
 
 Или же создайте примерно такой dockerfile
 ```
-FROM python:3.12.2-bookworm
 COPY . /app
 RUN pip install -r /app/requirements.txt
 ```
+
+## Arm64 Support
+Вы также можете использовать версию образа под arm. Для этого используйте образ `saddydead1/helmbot:arm64`
 
 ## Docker Compose Example
 ```
